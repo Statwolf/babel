@@ -8,6 +8,12 @@ module.exports = {
     shorthand: "f"
   },
 
+  allowReturnOutsideFunction: {
+    description: "when enabled, a return at the top level is not considered an error",
+    type: "boolean",
+    default: false
+  },
+
   filenameRelative: {
     hidden: true,
     type: "string"

@@ -53,6 +53,7 @@ export default class File extends Store {
       nonStandard:   this.opts.nonStandard,
       sourceType:    this.opts.sourceType,
       filename:      this.opts.filename,
+      allowReturnOutsideFunction: this.opts.allowReturnOutsideFunction,
       plugins:       []
     };
 
